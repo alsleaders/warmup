@@ -1,5 +1,5 @@
 :root {
-  font: 16px / 1 sans-serif;
+  font: 40px / 1 sans-serif;
 }
 
 html {
@@ -7,6 +7,93 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 5%;
   min-height: 100%;
+  border: black solid 5px;
+}
+
+h1 {
+  border: black solid 5px;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  background-color: mediumturquoise;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+.center-columns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  border: black solid 5px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 25rem;
+}
+
+section {
+  border: black solid 5px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  /* align-content: stretch; */
+  /* justify-content: center; */
+  background-color: orchid;
+  align-self: stretch;
+  min-width: 30%;
+  min-height: 10rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: stretch;
+  justify-content: space-around;
+  background-color: peachpuff;
+  align-self: stretch;
+  min-width: 30%;
+  min-height: 10rem;
+}
+
+.ad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: orchid;
+  align-self: stretch;
+  min-width: 30%;
+  min-height: 10rem;
+}
+
+p {
+  margin: 0 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  border: black solid 5px;
+  margin: 0;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: mediumturquoise;
 }
